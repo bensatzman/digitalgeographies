@@ -5,8 +5,9 @@
 <!-- UC/JEPS Home Page -->
 
 <head>
+<!-- copyright me, now! borrowed for infinity -->
 
-<title>University and Jepson Herbaria Home Page</title>
+<title>plants plants plants plants</title>
 <meta name="description" content="The University and Jepson Herbaria of the University of California at Berkeley are two collections of pressed plants housed together along with research labs, libraries, and archives. Together the Herbaria hold about 2,200,000 specimens, one of the largest collections in North America." />
 <meta name="keywords" content="herbarium specimens, vascular plant specimens, eFlora, bryophyte, mushroom, moss, lichen, seaweed, macroalgal, University of California, Berkeley" />
 <meta http-equiv="Content-Type" content="text/html" />
@@ -60,7 +61,7 @@
   <tr>
     <td rowspan="5" width="12" align="center" valign="middle"></td>
     <td rowspan="3" width="120" align="center" valign="middle">
-      <a href="/uc/"><img src="/common/images/uclogo_250.png" alt="University Herbarium (UC)" width="100" height="100" border="0" /></a></td>
+      <a href="/uc/"><img src="https://a-z-animals.com/media/animals/images/original/antelope_11.jpg" alt="University Herbarium (UC)" width="100" height="100" border="0" /></a></td>
     <td align="center">&nbsp;</td>
     <td rowspan="3" width="120" align="center" valign="middle">
       <a href="/jeps/"><img src="/common/images/JepsonLogoSmall.png" alt="Jepson Herbarium (JEPS)" width="100" height="100" border="0" /></a></td>
