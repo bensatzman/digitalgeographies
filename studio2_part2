@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!-- saved from url=(0064)https://web.archive.org/web/20050828190712/http://www.lacma.org/ -->
+<!-- saved from url=(0064)https://web.archive.org/web/20050830235435/http://www.lacma.org/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Wayback Machine</title>
 <script src="./Lacma_files/analytics.js" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app100.us.archive.org';v.server_ms=507;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="./Lacma_files/playback.bundle.js" charset="utf-8"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app202.us.archive.org';v.server_ms=388;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="./Lacma_files/playback.bundle.js" charset="utf-8"></script>
 <link rel="stylesheet" type="text/css" href="./Lacma_files/banner-styles.css">
 <link rel="stylesheet" type="text/css" href="./Lacma_files/iconochive.css">
 <script src="./Lacma_files/jquery-1.11.1.min.js"></script>
@@ -30,4 +30,3 @@ $('#wm-tb-close').click(function(){
 </script>
 
 </body></html>
-
