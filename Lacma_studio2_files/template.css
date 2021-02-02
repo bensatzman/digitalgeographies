@@ -1,0 +1,452 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica", "Arial", sans-serif;
+	behavior:url("https://web.archive.org/web/20100708071939im_/http://www.lacma.org/newhome/css/csshover.htc");
+}
+
+	p, td {
+		font-family: "Helvetica", "Arial", sans-serif;
+	}
+
+	div#header {
+		position: relative;
+		width: 100%;
+		height: 140px;
+		z-index: 1000;
+		min-width: 800px;
+		background: url(https://web.archive.org/web/20100708071939im_/http://www.lacma.org/newhome/images/nav-background.png) top left repeat-x;
+	}
+
+	div#home div#header {
+		min-width: 1050px;
+	}
+
+	div.header-wrapper {
+		position: relative;
+		display: block;
+		width: 800px;
+		height: 140px;
+		z-index: 1000;
+	}
+
+		div#header h1 {
+			position: absolute;
+			display: block;
+			top: 26px;
+			left: 24px;
+			text-indent: -9000px;
+			width: 128px;
+			height: 48px;
+			margin: 0;
+			padding: 0;
+		}
+	
+			div#header h1 a {
+				display: block;
+				width: 128px;
+				height: 48px;
+				background: url(https://web.archive.org/web/20100708071939im_/http://www.lacma.org/newhome/images/logo.png) top left no-repeat;
+			}
+
+		div#header div#contact {
+			position: absolute;
+			display: block;
+			top: 22px;
+			left: 194px;
+		}
+	
+			div#header div#contact p {
+				margin: 0;
+				padding: 0;
+				font: normal 12px/18px "Helvetica", sans-serif;
+				color: #d7182a;
+			}
+		
+				div#header div#contact p strong {
+					padding: 1px 2px 1px 2px;
+				}
+		
+				div#header div#contact p a {
+					padding: 1px 2px 1px 2px;
+					text-decoration: underline;
+					font-weight: normal;
+				}
+		
+				div#header div#contact p a:hover {
+					background-color: #d7182a;
+					color: #fff;
+					text-decoration: none;
+				}
+			
+		div#header div#search {
+			position: absolute;
+			top: 104px;
+			left: 550px;
+		}
+	
+			div#header div#search form {
+				margin: 0;
+				padding: 0;
+			}
+	
+				div#header div#search form * {
+					vertical-align: middle;
+				}
+		
+				div#header div#search form input#search-term {
+					font: bold 16px/18px "Helvetica", sans-serif;
+					color: #8b8b8b;
+					width: 176px;
+				}
+		
+				div#header div#search form input#search-submit {
+					cursor:pointer;
+					cursor: hand;
+					text-indent: -9000px;
+					outline: none;
+					line-height: 1px;
+					font-size: 1px;
+					border: 0;
+					width: 25px;
+					height: 25px;
+					background: url(https://web.archive.org/web/20100708071939im_/http://www.lacma.org/newhome/images/sprites.png) top left no-repeat;
+					background-position: -353px -50px;
+				}
+			
+				div#header div#search form input#search-submit:hover {
+					background-position: -386px -50px;
+				}
+		
+		div#header div.nav {
+			display: block;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			height: 46px;
+			width: 100%;
+			padding: 0;
+		}
+	
+			div#header div.nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0 0 0 16px;
+				width: 800px;
+			}
+		
+				div#header div.nav ul li.button {
+					position: relative;
+					display: block;
+					float: left;
+					background: url(https://web.archive.org/web/20100708071939im_/http://www.lacma.org/newhome/images/nav-divider.png) center right no-repeat;
+					padding: 0 17px 0 7px;
+				}
+			
+					div#header div.nav ul li.button a {
+						font: bold 16px/46px "Helvetica", sans-serif;
+						color: #fff;
+						text-decoration: none;
+					}
+				
+					div#header div.nav ul li div div {
+						display: none;
+						position: absolute;
+						top: 46px;
+						left: -7px;
+						border-top: 1px solid transparent;
+						z-index: 1000;
+					}
+			
+					div#header div.nav ul li div:hover div {
+						display: block;
+					}
+				
+					div#header div.nav ul li div:hover a {
+						color: #6b030d;
+					}
+	
+					div#header div.nav ul li div:hover div ul {
+						display: block;
+						background-color: #d7182a;
+						width: 151px;
+						padding: 7px 8px 7px 4px;
+					}
+				
+						div#header div.nav ul li.button div:hover div ul li {
+							display: block;
+							float: none;
+							background: none;
+							padding: 0;
+						}
+					
+							div#header div.nav ul li.button div div ul li a {
+								display: block;
+								font: bold 12px/14px "Helvetica", sans-serif;
+								color: #67020c;
+								padding: 3px 0 3px 11px;
+							}
+						
+							div#header div.nav ul li.button div div ul li a:hover {
+								background: url(https://web.archive.org/web/20100708071939im_/http://www.lacma.org/newhome/images/nav-hover.png) 0 5px no-repeat;
+								color: #fff;
+							}
+		
+	div#footer {
+		position: relative;
+		width: 100%;
+		min-width: 800px;
+		border-top: 1px solid #666565;
+		min-height: 50px;
+	}
+
+	div.template-960 div#footer {
+		min-width: 960px;
+	}
+
+	div.footer-wrapper {
+		display: block;
+		width: 960px;
+	}
+
+	div#footer.home-footer {
+		min-width: 1050px;
+	}
+
+	div.reader div#footer div.footer-wrapper {
+		width: 1140px;
+	}
+	
+	div.reader div#footer {
+		min-width: 1140px;
+	}
+
+	div#footer.home-footer div.footer-wrapper {
+		width: 1050px;
+	}
+
+		div#footer div#quicklinks {
+			font: normal 10px "Helvetica", sans-serif;
+			color: #000000;
+			text-transform: uppercase;
+			padding: 18px 0 0 24px;
+		}
+	
+			div#footer div#quicklinks a {
+				color: #000000;
+				font-weight: normal;
+			}
+		
+		div#footer div#social {
+			display: block;
+			position: absolute;
+			top: 16px;
+			left: 528px;
+		}
+
+		div#footer.home-footer div#social {
+			left: 773px;
+		}
+		
+		div.reader div#footer div#social {
+			left: 738px;
+			width: 235px;
+			height: 20px;
+		}
+		
+		div.template-960 div#footer div#social {
+			left: 730px;
+		}
+	
+			div#footer div#social a {
+				display: block;
+				float: left;
+				text-indent: -9000px;
+				background: url(https://web.archive.org/web/20100708071939im_/http://www.lacma.org/newhome/images/sprites.png) top left no-repeat;
+				margin-right: 7px;
+			}
+		
+				div#footer div#social a#unframed {
+					width: 60px;
+					height: 12px;
+					background-position: -349px -231px;
+				}
+			
+				div#footer div#social a#facebook {
+					width: 14px;
+					height: 14px;
+					background-position: -393px -257px;
+				}
+			
+				div#footer div#social a#twitter {
+					width: 13px;
+					height: 14px;
+					background-position: -395px -281px;
+				}
+				
+				div#footer div#social a#myspace {
+					width: 15px;
+					height: 15px;
+					background-position: -391px -360px;
+				}
+			
+				div#footer div#social a#flickr {
+					width: 41px;
+					height: 14px;
+					background-position: -366px -302px;
+				}
+			
+				div#footer div#social a#youtube {
+					width: 45px;
+					height: 20px;
+					background-position: -363px -331px;
+				}
+			
+/* OLD INTERIOR NAV STYLES */
+
+/* xxxxxxxxxxxxxxxxxxx Begin Formatting for leftNav xxxxxxxxxxxxxxxxxxxx */
+
+.leftNav * {
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+/* move entire leftNav over by 10px */
+.leftNav {
+margin-left: 10px;
+width: 150px;
+}
+
+.leftNav a:link,.leftNav a:active,.leftNav a:hover,.leftNav a:visited {
+text-decoration: none;
+}
+
+/* give smart nav 5px at top */
+ul.leftNav1 {
+margin-top: 5px;
+}
+
+/* give 50px space between smart nav and persistent nav */
+ul.leftNav2 {
+margin-top: 50px;
+}
+
+/* will underline the level one links in black */
+.leftNav_L1 {
+border-bottom: 1px solid #000;
+}
+
+.leftNav_L1 a {
+color: #808080;
+line-height: 18px;
+}
+
+.leftNav a:hover {
+color: #F30;
+}
+
+/* indent level two */
+.leftNav_L2 div{
+padding-left: 10px;
+}
+
+.leftNav_L2 a {
+font-size: 9px;
+line-height: 13px;
+}
+
+/* indent level three */
+.leftNav_L3 li{
+padding-left: 10px;
+}
+
+.leftNav_L3 a {
+font-size: 10px;
+font-family: arial, sans-serif;
+font-weight: normal;
+letter-spacing: 0px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxx behavior of leftNav links when selected xxxxxxxxxxxxxxxxxxxx */
+
+/* if the level one links have no children, they behave differently when selected */
+.leftNavSelected1 {
+background-color: #DDD;
+}
+.leftNavSelected1 a:link, .leftNavSelected1 a:visited {
+color: #666;
+text-decoration: underline;
+}
+.leftNavSelected1 a:hover,.leftNavSelected1 a:active {
+color: #333;
+text-decoration: underline;
+}
+/* eliminate the bottom border for any level one links (with or without children) that are selected */
+li.leftNavSelected_noUnderline {
+border-bottom: none;
+}
+/* nominal behavior of links (ie, with children) */
+/* fills in backgrounds and colors text*/
+.leftNavSelected2 {
+background-color: #DDD;
+color: #000;
+}
+/* shapes text and indents properly (for each level) */
+/* makes up for the formatting that was done with anchor tags (these are no longer links) */
+li.leftNavSelected2 {
+margin-left: -10px;
+}
+
+li.leftNavSelected2 span {
+margin-left: -10px;
+}
+
+div.leftNavSelected2 span {
+font-family: verdana,arial,helvetica,sans-serif;
+font-weight: bold;
+font-size: 10px;
+line-height: 18px;
+}
+
+.leftNav_L2 .leftNavSelected2 span {
+margin-left: -10px;
+padding-left: 10px;
+font-family: verdana,arial,helvetica,sans-serif;
+font-weight: bold;
+font-size: 9px;
+line-height: 13px;
+}
+.leftNav_L3 .leftNavSelected2 span {
+padding-left: 20px;
+font-family: arial,helvetica,sans-serif;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+}
+
+/* Declare color for horizontal rule for IE accomodation */
+hr {
+color:#D5D5D5;
+}
+/*
+     FILE ARCHIVED ON 07:19:39 Jul 08, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:38:53 Feb 02, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 357.373
+  RedisCDXSource: 9.811
+  CDXLines.iter: 20.777 (3)
+  exclusion.robots.policy: 0.27
+  esindex: 0.011
+  PetaboxLoader3.datanode: 293.502 (4)
+  LoadShardBlock: 322.12 (3)
+  PetaboxLoader3.resolve: 72.254
+  exclusion.robots: 0.292
+  load_resource: 103.598
+*/

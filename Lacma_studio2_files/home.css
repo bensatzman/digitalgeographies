@@ -1,0 +1,547 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+	a {
+		color: #d7182a;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		text-decoration: underline;
+	}
+	
+	div#home {
+		margin: 0;
+		padding: 456px 0 0 0;
+	}
+
+	div#home div#feature {
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		height: 438px;
+		width: 100%;
+		min-width: 980px;
+	}
+	
+		div#feature div.flash {
+			position: absolute;
+			display: block;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 438px;
+			z-index: 800;
+		}
+	
+	div#content {
+		position: relative;
+		width: 980px;
+		background: url(/web/20100708183953im_/http://www.lacma.org/newhome/images/content.png) top left repeat-y;
+		padding-top: 7px;
+		padding-bottom: 30px;
+	}
+	
+	div#content:after {
+		content: "."; 
+		display: block; 
+		height: 0; 
+		font-size:0;	
+		clear: both; 
+		visibility: hidden;
+	}
+	
+		div#content div#left {
+			float: left;
+			width: 230px;
+			margin-left: 24px;
+		}
+		
+			div#content div#left p#calendar-header {
+				display: block;
+				font: normal 10px/10px "Helvetica", sans-serif;
+				text-transform: uppercase;
+				margin: 0 0 14px 0;
+				padding: 0;
+			}
+			
+				div#content div#left p#calendar-header a {
+					color: #010101;
+					padding: 0 0 4px 0;
+				}
+
+				div#content div#left p#calendar-header a#calendar-subscribe {
+					display: inline-block;
+					padding-left: 15px;
+					background: url(/web/20100708183953im_/http://www.lacma.org/newhome/images/sprites.png) top left no-repeat;
+					background-position: -395px -164px;
+				}
+				
+				div#content div#left p#calendar-header a:hover {
+					text-decoration: underline;
+				}
+				
+			div#content div#left div.calendar-item {
+				position: relative;
+				margin: 12px 0 12px 0;
+				font-size: 1px;
+				line-height: 0px;
+			}
+			
+				div#content div#left a:hover {
+					text-decoration: none;
+				}
+			
+				div#content div#left div.calendar-item div.labels {
+					display: block;
+					position: absolute;
+					top: 0;
+					left: 11px;
+				}
+				
+					div#content div#left div.calendar-item div.labels span {
+						display: block;
+						float: left;
+						height: 14px;
+						text-indent: -9000px;
+						margin-right: 3px;
+					}
+					
+					div#content div#left div.calendar-item div.labels span.category {
+						background: url(/web/20100708183953im_/http://www.lacma.org/newhome/images/sprites.png) top left no-repeat;
+					}
+					
+						div#content div#left div.film div.labels span.category {
+							width: 30px;
+							background-position: -13px -47px;
+						}
+					
+						div#content div#left div.tours div.labels span.category {
+							width: 39px;
+							background-position: -13px -77px;
+						}
+					
+						div#content div#left div.music div.labels span.category {
+							width: 38px;
+							background-position: -13px -107px;
+						}
+					
+						div#content div#left div.nexgen div.labels span.category {
+							width: 45px;
+							background-position: -13px -137px;
+						}
+						
+						div#content div#left div.talks div.labels span.category {
+							width: 92px;
+							background-position: -13px -167px;
+						}
+						
+						div#content div#left div.openings div.labels span.category {
+							width: 54px;
+							background-position: -13px -197px;
+						}
+						
+					div#content div#left div.calendar-item div.labels span.tonight {
+						background: url(/web/20100708183953im_/http://www.lacma.org/newhome/images/sprites.png) top left no-repeat;
+						width: 50px;
+					}
+
+						div#content div#left div.film div.labels span.tonight {
+							background-position: -112px -47px;
+						}
+
+						div#content div#left div.tours div.labels span.tonight {
+							background-position: -112px -77px;
+						}
+
+						div#content div#left div.music div.labels span.tonight {
+							background-position: -112px -107px;
+						}
+
+						div#content div#left div.nexgen div.labels span.tonight {
+							background-position: -112px -137px;
+						}
+
+						div#content div#left div.talks div.labels span.tonight {
+							background-position: -112px -167px;
+						}
+
+						div#content div#left div.openings div.labels span.tonight {
+							background-position: -112px -197px;
+						}
+						
+					div#content div#left div.calendar-item div.labels span.today {
+						background: url(/web/20100708183953im_/http://www.lacma.org/newhome/images/sprites.png) top left no-repeat;
+						width: 40px;
+					}
+
+						div#content div#left div.film div.labels span.today {
+							background-position: -172px -47px;
+						}
+
+						div#content div#left div.tours div.labels span.today {
+							background-position: -172px -77px;
+						}
+
+						div#content div#left div.music div.labels span.today {
+							background-position: -172px -107px;
+						}
+
+						div#content div#left div.nexgen div.labels span.today {
+							background-position: -172px -137px;
+						}
+
+						div#content div#left div.talks div.labels span.today {
+							background-position: -172px -167px;
+						}
+
+						div#content div#left div.openings div.labels span.today {
+							background-position: -172px -197px;
+						}
+					
+				div#content div#left div.calendar-item img {
+					margin: 5px 0 0 0;
+					padding: 0;
+				}
+				
+				div#content div#left div.calendar-item div.calendar-item-info {
+					position: relative;
+					border-top: 2px solid #fff;
+					font: normal 12px/14px "Helvetica", sans-serif;
+					color: #4a4949;
+					padding: 4px 4px 3px 5px;
+					margin: 0;
+				}
+				
+					div#content div#left div.calendar-item div.calendar-item-info a {
+						color: #4a4949;
+					}
+				
+					div#content div#left div.calendar-item:hover div.calendar-item-info {
+						background-color: #e4e4e4;
+					}
+					
+					div#content div#left div.film:hover div.calendar-item-info {
+						border-top: 2px solid #00589c;
+					}
+
+					div#content div#left div.tours:hover div.calendar-item-info {
+						border-top: 2px solid #1e1e1e;
+					}
+
+					div#content div#left div.music:hover div.calendar-item-info {
+						border-top: 2px solid #d30250;
+					}
+
+					div#content div#left div.nexgen:hover div.calendar-item-info {
+						border-top: 2px solid #eb5300;
+					}
+
+					div#content div#left div.talks:hover div.calendar-item-info {
+						border-top: 2px solid #0b8402;
+					}
+
+					div#content div#left div.openings:hover div.calendar-item-info {
+						border-top: 2px solid #4e0289;
+					}
+				
+					div#content div#left div.calendar-item div.calendar-item-info strong {
+						display: block;
+						font: bold 16px/17px "Helvetica", sans-serif;
+						color: #0e0e0e;
+						padding-bottom: 3px;
+					}
+					
+					div#content div#left div.calendar-item div.calendar-item-info span {
+						font: bold 14px/14px "Helvetica", sans-serif;
+					}
+					
+					div#content div#left div.calendar-item div.calendar-item-info span em {
+						font: bold 10px/14px "Helvetica", sans-serif;
+						text-transform: uppercase;
+					}
+		
+		div#content div#center {
+			min-height: 200px;
+			float: left;
+			width: 463px;
+			margin-left: 38px;
+		}
+		
+			div#content div#center div#unframed-post {
+				position: relative;
+				font: normal 14px/21px "Helvetica", sans-serif;
+				color: #2e2e2e;
+				padding: 25px 20px 0 0;
+			}
+			
+				div#content div#center div#unframed-post h2#blog-title {
+					position: absolute;
+					top: 0;
+					left: 0;
+					text-indent: -9000px;
+					background: url(/web/20100708183953im_/http://www.lacma.org/newhome/images/sprites.png) top left no-repeat;
+					background-position: -13px -227px;
+					width: 142px;
+					height: 14px;
+					margin: 0;
+					padding: 0;
+				}
+				
+				div#content div#center div#unframed-post a#blog-subscribe {
+					position: absolute;
+					display: block;
+					top: 0;
+					right: 2px;
+					padding-left: 15px;
+					background: url(/web/20100708183953im_/http://www.lacma.org/newhome/images/sprites.png) top left no-repeat;
+					background-position: -395px -164px;
+					font: normal 10px/12px "Helvetica", sans-serif;
+					text-transform: uppercase;
+					color: #000;
+				}
+				
+				
+				
+				div#content div#center div#unframed-post h3 {
+					display: block;
+					margin: 0;
+					padding: 2px 0 0 0;
+					color: #d7182a;
+					font: normal 21px/25px "Helvetica", sans-serif;
+				}
+				
+					div#content div#center div#unframed-post h3 a {
+						color: #d7182a;
+						text-decoration: none;
+					}
+					
+					div#content div#center div#unframed-post h3 a:hover {
+						color: #e16b79;
+						text-decoration: none;
+					}
+					
+				.sIFR-active h3.post-title {
+					visibility: hidden; line-height:1em;
+				}
+				
+				div#content div#center div#unframed-post p {
+					margin: 0;
+					padding: 3px 0 0 0;
+				}
+				
+					div#content div#center div#unframed-post p span.date {
+						font-size: 12px;
+						text-transform: uppercase;
+					}
+					
+					div#content div#center div#unframed-post p a.read-on {
+						font-size: 12px;
+						text-decoration: underline;
+						font-weight: bold;
+						color: #2e2e2e;
+					}
+					
+						div#content div#center div#unframed-post p a.read-on:hover {
+							text-decoration: none;
+							color: #000;
+						}
+						
+					div#content div#center div#unframed-post p span {
+						font: normal 14px/14px "Arial", sans-serif;
+					}
+						
+			div#content div#center div#twitter-posts {
+				display: block;
+				position: relative;
+				width: 462px;
+				background: url(/web/20100708183953im_/http://www.lacma.org/newhome/images/twitter-top.png) top left no-repeat;
+				min-height: 50px;
+				margin-top: 20px;
+				overflow: hidden;
+			}
+			
+				div#content div#center div#twitter-posts a#twitter-subscribe {
+					position: absolute;
+					display: block;
+					top: 0;
+					right: 0;
+					padding-left: 15px;
+					background: url(/web/20100708183953im_/http://www.lacma.org/newhome/images/sprites.png) top left no-repeat;
+					background-position: -397px -200px;
+					font: normal 10px/12px "Helvetica", sans-serif;
+					text-transform: uppercase;
+					color: #000;
+				}
+			
+				div#content div#center div#twitter-posts div.twitter-group {
+					padding: 28px 26px 15px 26px;
+					min-height: 92px;
+					color: #2e2e2e;
+				}
+				
+					div#content div#center div#twitter-posts div.twitter-nav {
+						display: block;
+						font: bold 12px/12px "Helvetica", sans-serif;
+						color: #666565;
+						padding-bottom: 7px;
+					}
+					
+						div#content div#center div#twitter-posts div.twitter-nav a {
+							color: #2e2e2e;
+							text-decoration: underline;
+						}
+						
+						div#content div#center div#twitter-posts div.twitter-nav a:hover {
+							color: #000;
+							text-decoration: none;
+						}
+					
+						div#content div#center div#twitter-posts div.twitter-nav a.selected,
+						div#content div#center div#twitter-posts div.twitter-nav a.selected:hover {
+							color: #d7182a;
+							text-decoration: none;
+						}
+				
+					div#content div#center div#twitter-posts div.twitter-post p {
+						margin: 0;
+						padding: 0;
+						font: normal 14px/18px "Helvetica", sans-serif;
+						width: 410px;
+					}
+					
+						div#content div#center div#twitter-posts div.twitter-post p strong,
+						div#content div#center div#twitter-posts div.twitter-post p b {
+							font-weight: normal;
+						}
+					
+						div#content div#center div#twitter-posts div.twitter-post p a {
+							text-decoration: underline;
+							color: #2e2e2e;
+						}
+						
+						div#content div#center div#twitter-posts div.twitter-post p a:hover {
+							text-decoration: none;
+							color: #000;
+						}
+						
+					div#content div#center div#twitter-posts div.twitter-post span.date {
+						display: block;
+						font: normal 10px/18px "Helvetica", sans-serif;
+						text-transform: uppercase;
+					}
+					
+						div#content div#center div#twitter-posts div.twitter-post span.date a {
+							text-decoration: none;
+							color: #2e2e2e;
+						}
+						
+						div#content div#center div#twitter-posts div.twitter-post span.date a:hover {
+							text-decoration: underline;
+							color: #000;
+						}
+					
+				div#content div#center div#twitter-posts div#twitter-posts-footer {
+					display: block;
+					width: 462px;
+					height: 23px;
+					background: url(/web/20100708183953im_/http://www.lacma.org/newhome/images/twitter-bottom.png) top left no-repeat;
+				}
+				
+			div#content div#center div#newsletter-signup {
+				display: block;
+				width: 462px;
+				background: url(/web/20100708183953im_/http://www.lacma.org/newhome/images/divider.png) top left no-repeat;
+				padding: 16px 0 10px 0;
+				margin-top: 14px;
+			}
+			
+				div#content div#center div#newsletter-signup h3 {
+					margin: 0;
+					padding: 0;
+					color: #0e0e0e;
+					font: bold 16px/16px "Helvetica", sans-serif;
+				}
+				
+				div#content div#center div#newsletter-signup p {
+					margin: 0;
+					padding: 10px 15px 10px 0;
+					color: #4a4a4a;
+					font: normal 12px/17px "Helvetica", sans-serif;
+				}
+				
+				div#content div#center div#newsletter-signup form {
+					margin: 0;
+					padding: 0;
+				}
+				
+					div#content div#center div#newsletter-signup form * {
+						vertical-align: middle;
+					}
+				
+					div#content div#center div#newsletter-signup form input,
+					div#content div#center div#newsletter-signup form select {
+						font: bold 12px/12px "Helvetica", sans-serif;
+						color: #666565;
+					}
+					
+					div#content div#center div#newsletter-signup form input#newsletter-name,
+					div#content div#center div#newsletter-signup form input#newsletter-email {
+						width: 182px;
+					}
+					
+					div#content div#center div#newsletter-signup form select {
+						width: 111px;
+					}
+					
+					div#content div#center div#newsletter-signup form input#newsletter-submit {
+						cursor:pointer;
+						cursor: hand;
+						text-indent: -9000px;
+						outline: none;
+						line-height: 1px;
+						font-size: 1px;
+						border: 0;
+						width: 25px;
+						height: 25px;
+						background: url(/web/20100708183953im_/http://www.lacma.org/newhome/images/sprites.png) top left no-repeat;
+						background-position: -352px -110px;
+					}
+
+					div#content div#center div#newsletter-signup form input#newsletter-submit:hover {
+						background-position: -386px -110px;
+					}
+		
+		div#content div#right {
+			float: left;
+			width: 175px;
+			margin-left: 34px;
+		}
+		
+			div#content div#right img {
+				margin-bottom: 15px;
+			}
+/*
+     FILE ARCHIVED ON 18:39:53 Jul 08, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:38:55 Feb 02, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.181
+  esindex: 0.011
+  PetaboxLoader3.datanode: 1009.783 (4)
+  RedisCDXSource: 23.039
+  LoadShardBlock: 985.997 (3)
+  exclusion.robots.policy: 0.168
+  CDXLines.iter: 19.356 (3)
+  captures_list: 1032.975
+  load_resource: 204.369
+  PetaboxLoader3.resolve: 152.157
+*/
